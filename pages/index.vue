@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero homepage">
     <div class="container main-container">
       <p class="title is-size-1">Quickest Acceleration.<br> Longest Range. The Safest Cars Ever.</p>
       <div class="container tesla-model-wrapper">
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style>
-.hero {
+.homepage {
   background-image: url('../assets/images/tesla-model-3.jpg');
   background-size: cover;
   height: 90vh;

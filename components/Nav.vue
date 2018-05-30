@@ -2,14 +2,14 @@
     <div class="columns is-marginless">
         <div class="column navbar-start nav-column">
             <span class="navbar-item">
-                <h1 class="title is-4 brand-name">T E S L A</h1>
+                <nuxt-link class="title is-4 brand-name" to="/">T E S L A</nuxt-link>
             </span>
         </div>
         <div class="column middle-nav nav-column">
             <span class="navbar-item">MODEL S</span>
             <span class="navbar-item">MODEL X</span>
             <span class="navbar-item">MODEL 3</span>
-            <span class="navbar-item">ROADSTER</span>
+            <nuxt-link class="navbar-item" to="/roadster">ROADSTER</nuxt-link>
         </div>
         <div class="column navbar-end nav-column">
             <span class="navbar-item">SHOP</span>
