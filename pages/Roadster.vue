@@ -1,5 +1,5 @@
 <template>
-    <section class="hero roadsterpage-wrapper">
+    <section class="hero modelpage-wrapper bg-roadster">
         <div class="container heading-title">
             <h3 class="title is-4">Tesla</h3>
             <h1 class="title is-1">Roadster</h1>
@@ -42,56 +42,8 @@ export default {
 </script>
 
 <style>
-.roadsterpage-wrapper {
+.bg-roadster {
     background-image: url('../assets/images/Roadster.jpg');
-    background-size: cover;
-    text-align: center;
-    height: 90vh;
-}
-.title {
-    color: #f0f0f0;
-}
-.heading-title {
-    margin-top: 3%;
-}
-.heading-title h3 {
-    font-weight: 100;
-}
-.paragraph-wrapper {
-    margin-top: 15%;
-    margin-bottom: 0;
-}
-.para {
-    color: #f0f0f0;
-}
-.spec-columns {
-    color: #f0f0f0;
-    width: 60%;
-    text-align: center;
-}
-.specs {
-    margin-bottom: 3%;
-    display: flex;
-    justify-content: space-around;
-}
-.spec-detail {
-    font-size: 2rem;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.is-2 small {
-    font-size: 1rem;
-}
-.specs-para {
-    font-size: 0.8rem;
-}
-#sidebar {
-  opacity: 0.5;
-}
-#reserveBtn {
-   margin-top: 20%;
-   padding: 0 15% 0 15%;
 }
 </style>
 

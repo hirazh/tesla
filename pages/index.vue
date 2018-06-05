@@ -5,16 +5,16 @@
       <div class="container tesla-model-wrapper">
         <div class="columns">
           <div class="column">
-            <a href="#"><div class="tesla-models">MODEL S</div></a>
+            <nuxt-link to="/modelS"><a><div class="tesla-models">MODEL S</div></a></nuxt-link>
           </div>
           <div class="column">
-            <a href="#"><div class="tesla-models">MODEL X</div></a>
+            <nuxt-link to="/modelX"><a><div class="tesla-models">MODEL X</div></a></nuxt-link>
           </div>
           <div class="column">
-            <a href="#"><div class="tesla-models">MODEL 3</div></a>
+            <nuxt-link to="/model3"><a><div class="tesla-models">MODEL 3</div></a></nuxt-link>
           </div>
           <div class="column">
-            <a href="#"><div class="tesla-models">ROADSTER</div></a>
+            <nuxt-link to="/roadster"><a><div class="tesla-models">ROADSTER</div></a></nuxt-link>
           </div>
         </div>
       </div>
@@ -44,8 +44,9 @@ export default {
 
 <style>
 .homepage {
-  background-image: url('../assets/images/tesla-model-3.jpg');
+  background-image: url('../assets/images/homepage.jpg');
   background-size: cover;
+  background-position-y: center;
   height: 90vh;
 }
 

@@ -6,9 +6,9 @@
             </span>
         </div>
         <div class="column middle-nav nav-column">
-            <span class="navbar-item">MODEL S</span>
-            <span class="navbar-item">MODEL X</span>
-            <span class="navbar-item">MODEL 3</span>
+            <nuxt-link class="navbar-item" to="/modelS">MODEL S</nuxt-link>
+            <nuxt-link class="navbar-item" to="/modelX">MODEL X</nuxt-link>
+            <nuxt-link class="navbar-item" to="/model3">MODEL 3</nuxt-link>
             <nuxt-link class="navbar-item" to="/roadster">ROADSTER</nuxt-link>
         </div>
         <div class="column navbar-end nav-column">
