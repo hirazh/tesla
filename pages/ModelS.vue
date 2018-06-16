@@ -5,12 +5,6 @@
             <h1 class="title is-1">The Best Car</h1>
         </div>
         <div class="container paragraph-wrapper">
-            <!--
-            <p class="para">
-                The quickest car in the world, with record-setting<br> 
-                acceleration, range and performance.
-            </p>
-            -->
         </div>
         <div class="container specs">
             <div class="columns spec-columns">
@@ -20,7 +14,7 @@
                 </div>
                 <div class="column is-1"><h1 class="title is-1 has-text-weight-light" id="sidebar">|</h1></div>
                 <div class="column is-2">
-                    <h1 class="spec-detail">five star</h1>
+                    <h1 class="spec-detail">5 <i class="fas fa-star fa-sm"></i></h1>
                     <p class="specs-para">five star safety</p>
                 </div>
                 <div class="column is-1"><h1 class="title is-1 has-text-weight-light" id="sidebar">|</h1></div>
@@ -47,5 +41,8 @@ export default {
 <style>
 .bg-models {
     background-image: url('../assets/images/model-s-white.jpg');
+}
+#star-icons {
+    display: inline-block;
 }
 </style>
