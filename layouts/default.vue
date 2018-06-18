@@ -27,9 +27,19 @@ export default {
     text-align: center;
     height: 90vh;
 }
-.title {
+
+.title1, .title2 {
     color: #f0f0f0;
 }
+
+.title1{
+    font-size: 1.5rem;
+}
+
+.title2{
+    font-size: 3rem;
+}
+
 .heading-title {
     margin-top: 3%;
 }
@@ -49,11 +59,13 @@ export default {
     color: #f0f0f0;
     width: 60%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .specs {
     margin-bottom: 3%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .spec-detail {
     font-size: 2rem;
@@ -69,10 +81,60 @@ export default {
 }
 #sidebar {
   opacity: 0.5;
+  color: #f0f0f0;
 }
 #reserveBtn {
-   margin-top: 20%;
-   padding: 0 15% 0 15%;
+   background-color: red;
+   color: #f0f0f0;
+   font-weight: 600;
+   padding: 0 5% 0 5%;
 }
 
+/*Media queries*/
+
+@media only screen and (max-width: 1100px) {
+    .title1 {
+    font-size: 1.2rem;
+    }
+
+    .title2 {
+        font-size: 2.4rem;
+    }
+
+    .spec-detail {
+        font-size: 1.5rem;
+    }
+
+    .spec-columns{
+        width: 100%;
+    }
+    .heading-title {
+        margin-top: 8%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .title1 {
+    font-size: 1rem;
+    }
+
+    .title2 {
+        font-size: 2rem;
+    }
+
+    .spec-detail {
+        font-size: 1.2rem;
+    }
+
+    .spec-columns{
+        width: 100%;
+    }
+
+    .specs-para {
+        font-size: 0.6rem;
+    }
+    .heading-title {
+        margin-top: 10%;
+    }
+}
 </style>
