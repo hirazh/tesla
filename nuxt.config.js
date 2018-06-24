@@ -16,6 +16,10 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
     ]
   },
+  // css file for page transitions
+  css: [
+    'assets/animation.css'
+  ],
   /*
   ** Customize the progress bar color
   */

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-div">
     <Nav></Nav>
     <nuxt/>
   </div>
@@ -20,6 +20,9 @@ export default {
   border: 0;
   margin: 0;
   padding: 0;
+}
+.main-div {
+    background-color: #4f4f4f;
 }
 
 .modelpage-wrapper {
