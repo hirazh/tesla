@@ -5,7 +5,7 @@
             <h1 class="title2">The Best Car</h1>
         </div>
         <div class="actionbtn">
-            <div class="button is-rounded is-outlined" id="reserveBtn">Design yours</div>
+            <div class="button is-rounded" id="reserveBtn">Design yours</div>
         </div>
         <div class="container specs">
             <div class="columns spec-columns">
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-    
+  
   
 }
 </script>
@@ -44,6 +44,7 @@ export default {
 <style>
 .bg-models {
     background-image: url('../assets/images/model-s-white.jpg');
+    background-position: center center;
 }
 #star-icons {
     display: inline-block;

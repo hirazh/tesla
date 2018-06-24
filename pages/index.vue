@@ -73,6 +73,11 @@ export default {
   color: #ffffff;
   width: 180px;
   padding: 3%;
+  transition: .4s ease-in-out;
+}
+
+.tesla-models:hover {
+  opacity: 1;
 }
 
 .news {
@@ -115,7 +120,7 @@ export default {
 
 @media only screen and (max-width: 750px){
   .homepage {
-    
+    background-position: center center;
   }
 
   .page-title{

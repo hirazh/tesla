@@ -1,7 +1,7 @@
 <template>
     <section class="modelpage-wrapper model3-wrapper">
         <div class="vedio-wrapper">
-            <video width="cover" height="auto" autoplay>
+            <video width="cover" height="auto" autoplay loop>
             <source src="../assets/images/Model3-vedio.mp4">
             </video>
             <div class="text-wrapper">

@@ -44,6 +44,12 @@ export default {};
   color: #f0f0f0;
   margin-left: 2%;
   margin-right: 2%;
+  transition: .4s ease-in-out;
+}
+
+.navItem:hover, .brand-name:hover {
+    color: #fff;
+    font-weight: 600;
 }
 
 .brand-name {

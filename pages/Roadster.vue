@@ -44,6 +44,7 @@ export default {
 <style>
 .bg-roadster {
     background-image: url('../assets/images/Roadster.jpg');
+    background-position: center center;
 }
 </style>
 

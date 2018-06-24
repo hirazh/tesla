@@ -87,12 +87,16 @@ export default {
   color: #f0f0f0;
 }
 #reserveBtn {
-   background-color: red;
+   background-color: #c00;
    color: #f0f0f0;
    font-weight: 600;
    padding: 0 5% 0 5%;
+   opacity: 0.8;
+   transition: .4s ease-in-out;
 }
-
+#reserveBtn:hover {
+    opacity: 1;
+}
 /*Media queries*/
 
 @media only screen and (max-width: 1100px) {

@@ -5,7 +5,7 @@
             <h1 class="title2" id="modelxSubTitle">The Best SUV</h1>
         </div>
         <div class="actionbtn">
-            <div class="button is-rounded is-outlined" id="reserveBtn">Design yours</div>
+            <div class="button is-rounded" id="reserveBtn">Design yours</div>
         </div>
         <div class="container specs">
             <div class="columns spec-columns">
@@ -38,6 +38,7 @@ export default {
 <style>
 .bg-modelx {
     background-image: url('../assets/images/modelX.jpg');
+    background-position: center center;
 }
 
 #modelxTitle, #modelxSubTitle {
