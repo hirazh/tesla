@@ -5,7 +5,7 @@
             <source src="../assets/images/Model3-vedio.mp4">
             </video>
             <div class="text-wrapper">
-                <h1 class="title is-size-1">Model 3</h1>
+                <h1 class="title">Model 3</h1>
                 <p>
                     Designed to attain the highest safety ratings in every category,<br> 
                     Model 3 achieves 220 miles of range while starting at only $35,000 before incentives.
@@ -32,9 +32,9 @@ export default {
     justify-content: center;
 }
 
-.text-wrapper {
+.text-wrapper{
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 0;
     right: 0;
 }
@@ -43,13 +43,25 @@ export default {
     color: #f0f0f0;
 }
 
-.is-size-1 {
-    padding-bottom: 0;
-}
-
 #model3btn {
     background-color: red;
     color: #f0f0f0;
     margin-top: 3%;
+}
+
+@media only screen and (max-width: 750px) {
+    .text-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .text-wrapper p {
+        font-size: 12px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
 }
 </style>

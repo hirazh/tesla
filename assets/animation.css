@@ -29,18 +29,3 @@
       opacity: 0;
     }
 }
-  
-
-.spec-columns-enter-active {
-    animation: specPopUp 1s ease-in-out;
-}
-
-@keyframes specPopUp {
-    0% {
-        translateY: -50px;
-    }
-
-    100% {
-        translateY: 0;
-    }
-}
