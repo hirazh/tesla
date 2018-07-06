@@ -2,7 +2,7 @@
     <section class="modelpage-wrapper model3-wrapper">
         <div class="vedio-wrapper">
             <video width="cover" height="auto" autoplay loop>
-            <source src="../assets/images/Model3-vedio.mp4">
+            <source src="https://res.cloudinary.com/dvvjoqwaa/video/upload/c_fill,w_2880/v1530865790/Model3-vedio_h4vxuc.mp4">
             </video>
             <div class="text-wrapper">
                 <h1 class="title">Model 3</h1>

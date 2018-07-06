@@ -38,6 +38,7 @@ export default {
 <style>
 .bg-modelx {
     background-image: url('../assets/images/modelX.jpg');
+    background-size: cover;
     background-position: center center;
 }
 
